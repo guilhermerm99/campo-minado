@@ -3,7 +3,7 @@ package br.com.cod3r.cm.modelo;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.cod3r.cm.ExplosaoException;
+import br.com.cod3r.cm.excecao.ExplosaoException;
 
 public class Campo {
 

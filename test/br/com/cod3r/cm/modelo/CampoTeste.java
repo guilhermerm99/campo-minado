@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.cod3r.cm.ExplosaoException;
+import br.com.cod3r.cm.excecao.ExplosaoException;
 
 public class CampoTeste {
 
