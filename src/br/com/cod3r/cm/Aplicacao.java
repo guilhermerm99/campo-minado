@@ -1,7 +1,8 @@
 package br.com.cod3r.cm;
 
-<<<<<<< HEAD
+
 import br.com.cod3r.cm.modelo.Tabuleiro;
+import br.com.cod3r.cm.visao.TabuleiroConsole;
 
 public class Aplicacao {
 
@@ -9,14 +10,8 @@ public class Aplicacao {
 		
 		Tabuleiro tabuleiro = new Tabuleiro(6, 6, 6);
 		
-		tabuleiro.abrir(3, 3);
-		tabuleiro.alternarMarcacao(4, 4);
-		tabuleiro.alternarMarcacao(4, 5);
+		new TabuleiroConsole(tabuleiro);
 		
-		System.out.println(tabuleiro);
 	}
-=======
-public class Aplicacao {
 
->>>>>>> refs/remotes/origin/master
 }
