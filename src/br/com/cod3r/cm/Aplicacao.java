@@ -1,5 +1,6 @@
 package br.com.cod3r.cm;
 
+<<<<<<< HEAD
 import br.com.cod3r.cm.modelo.Tabuleiro;
 
 public class Aplicacao {
@@ -14,4 +15,8 @@ public class Aplicacao {
 		
 		System.out.println(tabuleiro);
 	}
+=======
+public class Aplicacao {
+
+>>>>>>> refs/remotes/origin/master
 }

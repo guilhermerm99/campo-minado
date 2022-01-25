@@ -69,6 +69,7 @@ public class Tabuleiro {
 	}
 	
 	public String toString() {
+<<<<<<< HEAD
 		StringBuilder sb = new StringBuilder();
 		
 		int i = 0;
@@ -90,5 +91,8 @@ public class Tabuleiro {
 		.filter(c-> c.getLinha() == linha && c.getColuna() == coluna)
 		.findFirst()
 		.ifPresent(c -> c.alternarMarcacao());
+=======
+		return "";
+>>>>>>> refs/remotes/origin/master
 	}
 }
