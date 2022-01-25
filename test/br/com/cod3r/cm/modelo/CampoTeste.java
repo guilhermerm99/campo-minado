@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.cod3r.cm.ExplosaoException;
+import br.com.cod3r.cm.excecao.ExplosaoException;
 
 public class CampoTeste {
 
@@ -98,7 +98,7 @@ public class CampoTeste {
 	void testeAbrirComVizinhos2() {
 		
 		Campo campo11 = new Campo(1, 1);
-		Campo campo12 = new Campo(1, 2);
+		Campo campo12 = new Campo(1, 1);
 		campo12.minar();
 		
 		Campo campo22 = new Campo(2, 2);
@@ -109,9 +109,5 @@ public class CampoTeste {
 		campo.abrir();
 		
 		assertTrue(campo22.isAberto() && campo11.isFechado());
-	}
-
-	void testeLinha() {
-
 	}
 }
