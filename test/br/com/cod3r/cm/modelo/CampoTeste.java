@@ -98,7 +98,7 @@ public class CampoTeste {
 	void testeAbrirComVizinhos2() {
 		
 		Campo campo11 = new Campo(1, 1);
-		Campo campo12 = new Campo(1, 1);
+		Campo campo12 = new Campo(1, 2);
 		campo12.minar();
 		
 		Campo campo22 = new Campo(2, 2);
@@ -109,5 +109,9 @@ public class CampoTeste {
 		campo.abrir();
 		
 		assertTrue(campo22.isAberto() && campo11.isFechado());
+	}
+
+	void testeLinha() {
+
 	}
 }
